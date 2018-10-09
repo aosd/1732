@@ -324,7 +324,7 @@ function play(guild, song) {
         .addField('resume', 'تكملة الاغنية')
         .addField('queue', 'اظهار قائمة التشغيل')
         .addField('np', 'اظهار الاغنية اللي انت مشغلها حاليا')
-        .setFooter('Bot By ; WeMissYouMajd.')
+        .setFooter('vol','لتحديد مستوى الصوت')
       message.channel.send(helpEmbed);
     }
 });
