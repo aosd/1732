@@ -311,7 +311,7 @@ function play(guild, song) {
 	.setColor('#ff0000')
 	.setTimestamp()
 		   
-		   client.on('message', message => {
+client.on('message' , message => {		   
     if (message.content === 'help') {
         let helpEmbed = new Discord.RichEmbed()
         .setTitle('**أوامر الميوزك...**')
