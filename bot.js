@@ -6,7 +6,7 @@ client.on('ready', () => {
   console.log(`Loggen in As ${client.user.username}`)
  client.user.setGame(`TrixMC {client.guilds.size} Guild(s)`, "https://twitch.tv/TrixMC")
  client.user.setStatus(`Idle`)
-});,
+});
   
 
 
