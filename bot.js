@@ -8,8 +8,8 @@ client.on('ready', () => {
 h
 client.user.setActivity("TrixMC", "https://m.twitch.tv/TrixMC") 
 client.on('message', msg => {
-  if (msg.content === '') {
-    msg.reply('Pong!');
+  if (msg.content === '@TrixMC Giveaway Bot') {
+    msg.reply('تراني بوت وش بفيدك؟');
   }
 });
 
