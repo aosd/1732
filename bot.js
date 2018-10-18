@@ -11,8 +11,8 @@ client.on('ready', () => {
   
 
 client.on('message', msg => {
-  if (msg.content === '@TrixMC Giveaway Bot#4248') {
-    msg.reply('تراني بوت وش بفيدك؟');
+  if (msg.content === ':(') {
+    msg.reply('ألحياه حلوه لاتزعل ي حبيبي, صدقني رح تفوز في القيف اواي الجاي :heart:');
   }
 });
 
