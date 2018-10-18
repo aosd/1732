@@ -2,17 +2,12 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 const prefix = '.'
 
-client.on('ready', () => { 
-  console.log(`Loggen in As ${client.user.username}`)
- client.user.setGame(`TrixMC {client.guilds.size} Guild(s)`, "https://twitch.tv/TrixMC")
- client.user.setStatus(`Idle`)
-});
+client.user.setGame(`TrixMC ${client.guilds.size} Guild's`, 'https://twitch.tv/TrixMC');
+
   
 
-
-
 client.on('message', msg => {
-  if (msg.content === '@TrixMC Giveaway Bot') {
+  if (msg.content === '@TrixMC Giveaway Bot#4248') {
     msg.reply('تراني بوت وش بفيدك؟');
   }
 });
