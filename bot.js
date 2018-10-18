@@ -2,7 +2,11 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 const prefix = '.'
 
-client.user.setGame(`TrixMC ${client.guilds.size} Guild's`, 'https://twitch.tv/TrixMC');
+client.on('ready', () => { 
+  console.log(`Loggen in As ${client.user.username}`)
+ client.user.setGame(`TrixMC {client.guilds.size} Guild's`, "https://twitch.tv/TrixMC")
+ client.user.setStatus(`Idle`)
+});
 
   
 
