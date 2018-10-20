@@ -17,8 +17,8 @@ client.on('message', msg => {
 });
 
 client.on('message', msg => {
-  if (msg.content === '5335') {
-    msg.reply('#credit');
+  if (msg.content === 'Hi') {
+    msg.reply('Hello ?');
   }
 });
 
