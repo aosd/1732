@@ -16,6 +16,13 @@ client.on('message', msg => {
   }
 });
 
+client.on('message', msg => {
+  if (msg.content === '5335') {
+    msg.reply('#credit');
+  }
+});
+
+
 client.on('message',async message => {
 if(message.author.bot) return;
 if(message.channel.type === 'dm') return
